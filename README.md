@@ -48,7 +48,7 @@ Aplikasi ini menggunakan API publik dari Dicoding untuk manajemen data catatan:
 ```bash
    npm install
 ```
-4. **Jalankan Server Development**
+3. **Jalankan Server Development**
 ```bash
    npm run start-dev
 ```
@@ -58,14 +58,15 @@ Aplikasi ini menggunakan API publik dari Dicoding untuk manajemen data catatan:
    npm run build
 ```
    File hasil kompilasi akan berada di folder dist/.
-✅ Status
+   
+## ✅ Status
 ✅ Selesai - Proyek sudah memenuhi semua kriteria submission di Dicoding.
 
-✍️ Kontribusi
+## ✍️ Kontribusi
 
 Proyek ini dikerjakan secara pribadi sebagai tugas akhir dan tidak menerima kontribusi eksternal.
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 
 Nama: Muhammad Alwi Assidiqi
 
