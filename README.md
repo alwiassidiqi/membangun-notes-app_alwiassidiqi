@@ -33,24 +33,6 @@ Proyek ini merupakan sebuah website sederhana yang dikembangkan menggunakan tekn
 - **CSS**
 - **JavaScript**
 
-## 📁 Struktur Folder
-
-📦membangun-notes-app_alwiassidiqi/
-
-├── 📁src/
-
-│ ├── 📁styles/
-
-│ ├── 📁scripts/
-
-│ ├── 📁components/
-
-│ └── index.html
-
-├── 📄package.json
-
-└── 📄README.md
-
 ## 🌐 API yang Digunakan
 
 Aplikasi ini menggunakan API publik dari Dicoding untuk manajemen data catatan:
