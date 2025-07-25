@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b2a59b;
+}
+
+#wrapper {
+  box-shadow: 0 0 15px 5px #7d7766;
+  margin-top: 0px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #faeed1;
+  padding: 10px 20px 20px 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  margin: 0px -20px 20px -20px;
+  font-size: 20px;
+  background-color: #c93a3a;
+  color: white;
+}
+
+hr {
+  border: 1.2px solid black;
+  margin: 15px 0 15px 0;
+}
+
+.validation-message {
+  color: red;
+  margin-top: 5px;
+}
+
+input:user-invalid {
+  border: 1px solid red;
+}
+
+/* STYLE CUSTOM ELEMENTS */
+note-list,
+note-list-archived {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+note-list > div,
+note-list-archived > div {
+  background-color: white;
+  border-radius: 13px;
+  max-width: 208px;
+  border: none;
+  box-shadow: 0px 1px 10px 1px #607274;
+  padding-bottom: 10px;
+}
+
+note-list h3,
+note-list-archived h3 {
+  background-color: #607274;
+  border-radius: 13px 13px 0px 0px;
+  text-align: center;
+  color: white;
+  padding: 15px 10px 15px 10px;
+  word-break: break-word;
+}
+
+note-list p,
+note-list-archived p {
+  padding: 10px;
+  word-break: break-word;
+}
+
+.note-button {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.note-button div {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.archive-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.archive-button:hover {
+  background-color: #0056b3;
+}
+
+.unarchive-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.unarchive-button:hover {
+  background-color: #218838;
+}
+
+/* STYLE LOADING INDICATOR */
+#bgLoading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  color: #607274;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  margin-right: 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+loading-indicator .loading-spinner {
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+//STYLE POP-UP SWAL
+.swal2-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.swal2-custom-title {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.swal2-custom-confirm,
+.swal2-custom-cancel {
+  display: flex !important;
+  justify-content: center !important;
+}
