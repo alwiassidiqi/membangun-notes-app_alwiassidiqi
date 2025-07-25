@@ -36,43 +36,55 @@ Proyek ini merupakan sebuah website sederhana yang dikembangkan menggunakan tekn
 ## 📁 Struktur Folder
 
 📦membangun-notes-app_alwiassidiqi/
+
 ├── 📁src/
+
 │ ├── 📁styles/
+
 │ ├── 📁scripts/
+
 │ ├── 📁components/
+
 │ └── index.html
+
 ├── 📄package.json
+
 └── 📄README.md
 
 ## 🌐 API yang Digunakan
 
-Aplikasi ini menggunakan API publik dari Dicoding untuk manajemen data catatan:  
+Aplikasi ini menggunakan API publik dari Dicoding untuk manajemen data catatan:
 🔗 [https://notes-api.dicoding.dev/v2](https://notes-api.dicoding.dev/v2)
 
 ## 🧪 Cara Menjalankan Proyek
 
 1. **Clone Repository**
-
+```bash
    git clone https://github.com/alwiassidiqi/membangun-notes-app_alwiassidiqi
-
+```
 2. **Install Dependencies**
+```bash
    npm install
-
+```
 4. **Jalankan Server Development**
+```bash
    npm run start-dev
+```
    Aplikasi akan terbuka di: http://localhost:9000
-
 4. **Build untuk Produksi**
+```bash
    npm run build
+```
    File hasil kompilasi akan berada di folder dist/.
-
 ✅ Status
 ✅ Selesai - Proyek sudah memenuhi semua kriteria submission di Dicoding.
 
 ✍️ Kontribusi
+
 Proyek ini dikerjakan secara pribadi sebagai tugas akhir dan tidak menerima kontribusi eksternal.
 
 🧑‍💻 Author
+
 Nama: Muhammad Alwi Assidiqi
 
 Dicoding ID: https://www.dicoding.com/users/alwiassidiqi/academies
